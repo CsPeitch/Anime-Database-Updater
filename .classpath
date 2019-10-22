@@ -7,6 +7,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="libs/jsoup-1.8.3.jar"/>
-	<classpathentry kind="lib" path="libs/mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry kind="lib" path="libs/mysql-connector-java-8.0.16.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

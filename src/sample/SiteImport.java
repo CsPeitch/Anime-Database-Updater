@@ -52,12 +52,12 @@ public class SiteImport {
 			Document doc = Jsoup.connect(animelink).userAgent("Mozilla/5.0").timeout(120*1000).get();
 			
 			String imgurl = doc.getElementsByClass("animeDetail-image").first().getElementsByTag("img").first().absUrl("src");
-			System.out.println(imgurl);
+			//System.out.println(imgurl);
 			
 			String genre="    ",episodes="    ",type="    ",agerating="    ";
 			Elements detaildivs = doc.getElementsByClass("animeDetail-item");
 			for(Element detaildiv : detaildivs) {
-				System.out.println(detaildiv.text());
+				//System.out.println(detaildiv.text());
 				String detailtext = detaildiv.text();
 				
 				if(detailtext.contains("Genres")) {
